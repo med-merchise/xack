@@ -1,0 +1,15 @@
+[project]
+name = "xack"
+version = "0.1.0"
+description = "Tutorials on computer programming theory and techniques."
+readme = "README.md"
+authors = [ { name = "Medardo Antonio Rodriguez" } ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+xack = "xack:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
