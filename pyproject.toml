@@ -30,3 +30,9 @@ dev = [
     "ipdb>=0.13.13",
     "ipython>=8.29.0",
 ]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.format]
+quote-style = "preserve"
