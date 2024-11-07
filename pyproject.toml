@@ -34,6 +34,12 @@ dev = [
     "tk>=0.1.0",
 ]
 
+[tool.pydocstyle]
+add-ignore = [
+    "D105", # Missing docstring in magic method
+    "D107", # Missing docstring in __init__
+]
+
 [tool.ruff]
 line-length = 79
 
