@@ -68,3 +68,11 @@ To start programming you need:
 - `rc`: resource configuration to configure the shell environment.
 - `src`: package source code.
 - `tests`: unit tests and integration tests for the code.
+
+## Known issues
+
+Using `%paste` IPython magic gives an error because `tk` is not properly
+installed with `uv add`.  To solve this problem temporarily, copy to the local
+virtual environment the `tk` configuration files `{tcl8,tcl8.6,tk8.6}` from
+the `$UV_SYSTEM_PYTHON/lib/` folder.  In my case I use as `$UV_SYSTEM_PYTHON`
+the folder `~/.uv`.

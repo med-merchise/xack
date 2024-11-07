@@ -29,7 +29,9 @@ docs = [
 ]
 dev = [
     "ipdb>=0.13.13",
-    "ipython>=8.29.0",
+    "ipykernel>=6.29.5",
+    "tcl>=0.2",
+    "tk>=0.1.0",
 ]
 
 [tool.ruff]
